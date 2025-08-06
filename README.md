@@ -1,6 +1,6 @@
 # Drupal GovCon 2025 Demo
 
-This repository contains demo code and examples for the Branching Out: Design Systems training, focused on modern frontend development workflows for design systems.
+This repository contains demo code and examples for the [Branching Out: Design Systems](http://github.com/bixal/drupal-govcon-2025) training, focused on frontend development workflows for design systems.
 
 **What's included:**
 
