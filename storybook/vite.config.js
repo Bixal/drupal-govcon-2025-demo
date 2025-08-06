@@ -1,5 +1,4 @@
 import { defineConfig } from "vite";
-import yml from "@modyfi/vite-plugin-yaml";
 import { join } from "node:path";
 import twig from "vite-plugin-twig-drupal";
 
@@ -26,8 +25,6 @@ export default defineConfig({
         pages: join(__dirname, "./components/pages"),
       },
     }),
-    // Allows Storybook to read data from YAML files.
-    yml(),
   ],
   framework: "html",
 });
