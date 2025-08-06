@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "astro dev --port 7070",
-    "start": "astro dev --port 7070",
+    "start": "astro dev -cd-port 7070",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
