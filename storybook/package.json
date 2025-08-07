@@ -16,10 +16,12 @@
   "devDependencies": {
     "@storybook/addon-docs": "9.1.1",
     "@storybook/html-vite": "9.1.1",
+    "@storybook/web-components-vite": "9.1.1",
     "storybook": "9.1.1",
     "vite-plugin-twig-drupal": "1.6.1"
   },
   "dependencies": {
-    "@uswds/uswds": "3.13.0"
+    "@uswds/uswds": "3.13.0",
+    "lit": "3.3.1"
   }
 }
