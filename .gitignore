@@ -61,9 +61,11 @@ dist/
 .astro/
 
 
+# VS Code
+.vscode/settings.json
+
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
-
 
 # Vite logs files
 vite.config.js.timestamp-*
