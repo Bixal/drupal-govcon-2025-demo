@@ -7,6 +7,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "My Docs",
+      customCss: ["./src/styles/main.css"],
       sidebar: [
         {
           label: "Guides",

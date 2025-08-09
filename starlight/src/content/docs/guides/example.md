@@ -6,6 +6,10 @@ description: A guide in my new Starlight docs site.
 Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
 Writing a good guide requires thinking about what your users are trying to do.
 
+ <iframe
+  src="http://localhost:6060/?path=/docs/example-button--docs/iframe.html?id=shadowboxcta--docs&viewMode=docs&shortcuts=false&singleStory=true"
+></iframe>
+
 ## Further reading
 
 - Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
