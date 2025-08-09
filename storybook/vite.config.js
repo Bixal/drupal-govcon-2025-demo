@@ -22,9 +22,8 @@ export default defineConfig({
        */
       namespaces: {
         uswds_base: join(__dirname, "./node_modules/@uswds/uswds/dist"),
-        pages: join(__dirname, "./components/pages"),
+        pages: join(__dirname, "./packages/pages"),
       },
     }),
   ],
-  framework: "html",
 });

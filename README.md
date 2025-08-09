@@ -25,17 +25,13 @@ Clone the repository and install dependencies for each package:
    cd drupal-govcon-2025-demo
    ```
 
-2. **Install Storybook dependencies**
+2. **Install dependencies**
 
    ```sh
-   cd ./storybook && npm install
+   npm install
    ```
 
-3. **Install Starlight dependencies**
-
-   ```sh
-   cd ../starlight && npm install
-   ```
+3. **That's it!** Both project dependencies are installed.
 
 ## Usage
 
@@ -44,8 +40,7 @@ Clone the repository and install dependencies for each package:
 Run Storybook to see and develop components:
 
 ```sh
-cd storybook
-npm start
+npm run lib
 ```
 
 Storybook will start on [http://localhost:6060](http://localhost:6060).
@@ -55,8 +50,7 @@ Storybook will start on [http://localhost:6060](http://localhost:6060).
 Run the documentation site locally:
 
 ```sh
-cd starlight
-npm run dev
+npm run docs
 ```
 
 The docs site will be available at [http://localhost:7070](http://localhost:7070).

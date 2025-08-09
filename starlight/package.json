@@ -1,12 +1,12 @@
 {
   "name": "@bixal/dg-demo-starlight",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.0-alpha",
   "author": "Bixal",
   "license": "MIT",
   "scripts": {
     "dev": "astro dev --port 7070",
-    "start": "astro dev -cd-port 7070",
+    "start": "npm run dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
