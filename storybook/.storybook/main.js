@@ -17,6 +17,7 @@ const config = {
     "uswds-clone": {
       title: "USWDS Clone",
       url: "https://6897cd2bcc83ef9c6701e275-lthpyxdfdd.chromatic.com",
+      expanded: false,
     },
   },
 };
