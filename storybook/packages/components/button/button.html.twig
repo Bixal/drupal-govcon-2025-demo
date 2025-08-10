@@ -1,3 +1,14 @@
-{% include "@uswds_components/usa-button/src/usa-button.twig" %}
+{% if attributes is empty %}
+  {% set attributes = create_attribute() %}
+{% endif %}
 
-<h1>hello world</h1>
+{% set button_classes = [
+  "usa-button",
+  (variant ? "usa-button--" ~ variant)
+] | merge(additional_classes | default([])) %}
+
+<button
+  {{ attributes.addClass(button_classes) }}
+  type="{{ type | default("button")}}">
+  {{ label |default("Hello world") }}
+</button>
