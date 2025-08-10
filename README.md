@@ -59,7 +59,7 @@ The docs site will be available at [http://localhost:7070](http://localhost:7070
 
 ```sh
 .
-├── storybook     # UI components & code
+├── storybook     # Component library
 └── starlight     # Documentation site
 ```
 
