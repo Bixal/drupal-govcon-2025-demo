@@ -1,5 +1,6 @@
-import "@uswds/uswds";
-import "../packages/index.scss";
+import "@uswds/uswds"; // USWDS JS for components
+import "../packages/index.scss"; // Our custom theme styles.
+
 import prettier from "prettier/standalone";
 import parserHtml from "prettier/plugins/html";
 

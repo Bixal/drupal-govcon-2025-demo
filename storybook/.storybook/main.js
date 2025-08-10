@@ -5,6 +5,8 @@ const config = {
     "../packages/**/*.mdx",
     "../packages/**/*.stories.@(js|jsx|mjs|ts|tsx)",
   ],
+  // Use static assets directly from USWDS.
+  staticDirs: ["../../node_modules/@uswds"],
   addons: ["@storybook/addon-docs"],
   framework: {
     // name: "@storybook/web-components-vite",
