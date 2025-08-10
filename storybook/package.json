@@ -14,6 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "prettier": "3.3.3",
     "@storybook/addon-docs": "9.1.1",
     "@storybook/html-vite": "9.1.1",
     "@storybook/web-components-vite": "9.1.1",

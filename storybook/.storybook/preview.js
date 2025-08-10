@@ -1,4 +1,7 @@
 import "../packages/index.scss";
+import prettier from "prettier/standalone";
+import parserHtml from "prettier/plugins/html";
+
 /** @type { import('@storybook/html-vite').Preview } */
 const preview = {
   parameters: {
@@ -9,6 +12,16 @@ const preview = {
       },
     },
     docs: {
+      source: {
+        language: "html",
+        transform: (src) =>
+          prettier.format(src, {
+            parser: "html",
+            plugins: [parserHtml],
+            printWidth: 80,
+            htmlWhitespaceSensitivity: "ignore",
+          }),
+      },
       canvas: {
         sourceState: "shown",
       },
