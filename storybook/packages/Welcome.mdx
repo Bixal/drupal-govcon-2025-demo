@@ -1,4 +1,4 @@
-import { Meta } from "@storybook/addon-docs/blocks";
+import { Meta, ColorPalette, ColorItem } from "@storybook/addon-docs/blocks";
 
 export const RightArrow = () => (
   <svg
@@ -20,6 +20,22 @@ export const RightArrow = () => (
 
 <Meta title="Welcome" />
 
-# TK
+# Tokens
 
-TK
+Primary color tokens based on cyan token family.
+
+## Color
+
+<ColorPalette>
+  <ColorItem
+    title="Primary"
+    colors={{
+      "Lightest ('cyan-30)": "#5dc0d1",
+      "Lighter ('cyan-40')": "#449dac",
+      "Light ('cyan-50')": "#168092",
+      "Medium (cyan-60)": "#2a646d",
+      "Dark ('cyan-70v')": "#0e4f5c",
+      "Darker ('cyan-80v')": "#093b44",
+    }}
+  />
+</ColorPalette>

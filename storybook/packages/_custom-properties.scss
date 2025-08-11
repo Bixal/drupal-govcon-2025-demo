@@ -1,0 +1,19 @@
+@forward "uswds-theme";
+@use "uswds-core" as *;
+
+// These are custom properties that will need to be updated once officially implemented into USWDS:
+// https://github.com/uswds/uswds/issues/4644
+:root {
+  --uswds-theme-color-primary-lightest: #{color($theme-color-primary-lightest)};
+  --uswds-theme-color-primary-lighter: #{color($theme-color-primary-lighter)};
+  --uswds-theme-color-primary-light: #{color($theme-color-primary-light)};
+  --uswds-theme-color-primary: #{color($theme-color-primary)};
+  --uswds-theme-color-primary-dark: #{color($theme-color-primary-dark)};
+  --uswds-theme-color-primary-darker: #{color($theme-color-primary-darker)};
+  --uswds-theme-color-base-lightest: #{color($theme-color-base-lightest)};
+  --uswds-theme-color-base-lighter: #{color($theme-color-base-lighter)};
+  --uswds-theme-color-base-light: #{color($theme-color-base-light)};
+  --uswds-theme-color-base-darkest: #{color($theme-color-base-darkest)};
+  --uswds-theme-color-accent-cool: #{color($theme-color-accent-cool)};
+  --uswds-theme-color-accent-cool-dark: #{color($theme-color-accent-cool-dark)};
+}

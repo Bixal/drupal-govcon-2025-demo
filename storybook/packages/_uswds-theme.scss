@@ -1,6 +1,19 @@
-@use "uswds-core" with (
+@forward "uswds-core" with (
   $theme-image-path: "@uswds/uswds/img",
   $theme-font-path: "@uswds/uswds/fonts",
+  $theme-color-primary-lightest: "cyan-30",
+  $theme-color-primary-lighter: "cyan-40",
+  $theme-color-primary-light: "cyan-50",
+  $theme-color-primary: "cyan-60",
+  $theme-color-primary-dark: "cyan-70v",
+  $theme-color-primary-darker: "cyan-80v",
+  $theme-color-base-lightest: "blue-cool-5",
+  $theme-color-base-lighter: "blue-cool-10",
+  $theme-color-base-light: "blue-cool-30",
+  $theme-color-base-darkest: "blue-cool-80",
+  $theme-color-accent-cool: "mint-cool-30",
+  $theme-color-accent-cool-dark: "mint-cool-50",
+
   // $theme-show-compile-warnings: false,
   // $theme-show-notifications: false
 );
