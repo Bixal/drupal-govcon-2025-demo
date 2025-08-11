@@ -11,6 +11,7 @@
   "scripts": {
     "start": "storybook dev -p 6060",
     "build": "storybook build",
+    "build:vite": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
