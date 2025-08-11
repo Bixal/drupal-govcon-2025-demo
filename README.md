@@ -43,6 +43,20 @@ Run Storybook to see and develop components:
 npm run lib
 ```
 
+You can run specific workspace commands from root:
+
+```sh
+# Runs the build command for the component library.
+npm run build:vite --workspace storybook
+```
+
+You can also run the short version of the command:
+
+```sh
+# Runs the build command for the component library.
+npm run build:vite -w storybook
+```
+
 Storybook will start on [http://localhost:6060](http://localhost:6060).
 
 #### USWDS Assets
