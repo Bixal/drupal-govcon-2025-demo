@@ -1,0 +1,9 @@
+@layer starlight, theme;
+
+@layer theme {
+  .sl-markdown-content :is(iframe):not(:where(.not-content *)) {
+    border: none;
+    width: 100%;
+    height: 800px;
+  }
+}

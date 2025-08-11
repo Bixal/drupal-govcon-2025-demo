@@ -7,7 +7,7 @@ export default defineConfig({
     preprocessorOptions: {
       scss: {
         quietDeps: true,
-        // loadPaths: ["./node_modules/@uswds/uswds/packages"],
+        loadPaths: ["../node_modules/@uswds/uswds/packages"],
       },
     },
   },
@@ -21,7 +21,12 @@ export default defineConfig({
        *
        */
       namespaces: {
-        uswds_base: join(__dirname, "./node_modules/@uswds/uswds/dist"),
+        components: join(__dirname, "./packages/components"),
+        uswds_base: join(__dirname, "../node_modules/@uswds/uswds/dist"),
+        uswds_components: join(
+          __dirname,
+          "../node_modules/@uswds/uswds/packages",
+        ),
         pages: join(__dirname, "./packages/pages"),
       },
     }),

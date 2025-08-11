@@ -1,0 +1,14 @@
+{% if attributes is empty %}
+  {% set attributes = create_attribute() %}
+{% endif %}
+
+{% set button_classes = [
+  "usa-button",
+  (variant ? "usa-button--" ~ variant)
+] | merge(additional_classes | default([])) %}
+
+<button
+  {{ attributes.addClass(button_classes) }}
+  type="{{ type | default("button")}}">
+  {{ label |default("Hello world") }}
+</button>
