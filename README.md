@@ -33,17 +33,9 @@ Clone the repository and install dependencies for each package:
 
 3. **That's it!** Both project dependencies are installed.
 
-## Usage
+## NPM Scripts
 
-### Storybook
-
-Run Storybook to see and develop components:
-
-```sh
-npm run lib
-```
-
-You can run specific workspace commands from root:
+You can run individual workspace commands from root:
 
 ```sh
 # Runs the build command for the component library.
@@ -55,6 +47,16 @@ You can also run the short version of the command:
 ```sh
 # Runs the build command for the component library.
 npm run build:vite -w storybook
+```
+
+## Usage
+
+### Storybook
+
+Run Storybook to see and develop components:
+
+```sh
+npm run lib
 ```
 
 Storybook will start on [http://localhost:6060](http://localhost:6060).
