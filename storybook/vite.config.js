@@ -25,7 +25,7 @@ export default defineConfig({
         uswds_base: join(__dirname, "../node_modules/@uswds/uswds/dist"),
         uswds_components: join(
           __dirname,
-          "../node_modules/@uswds/uswds/packages"
+          "../node_modules/@uswds/uswds/packages",
         ),
         pages: join(__dirname, "./packages/pages"),
       },
