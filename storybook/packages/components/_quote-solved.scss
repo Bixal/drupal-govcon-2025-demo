@@ -15,6 +15,8 @@
 }
 
 .dg-quote__body {
+  --left-quote: "\201C";
+  --right-quote: "\201D";
   font-size: size("body", "md");
   margin: units(0);
 
@@ -35,11 +37,11 @@
   }
 
   &::before {
-    content: "\201C";
+    content: var(--left-quote);
   }
 
   &::after {
-    content: "\201D";
+    content: var(--right-quote);
     align-self: end;
   }
 }
