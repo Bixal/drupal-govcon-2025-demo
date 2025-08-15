@@ -1,0 +1,18 @@
+.dg-quote__body {
+  --left-quote: "\201C";
+  --right-quote: "\201D";
+
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+  }
+
+  &::before {
+    content: var(--left-quote);
+  }
+
+  &::after {
+    content: var(--right-quote);
+  }
+}
