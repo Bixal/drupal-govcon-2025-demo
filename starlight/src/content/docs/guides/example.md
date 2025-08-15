@@ -7,7 +7,7 @@ Guides lead a user through a specific task they want to accomplish, often with a
 Writing a good guide requires thinking about what your users are trying to do.
 
  <iframe
-  src="http://localhost:6060/?path=/docs/components-button--default/iframe.html?id=shadowboxcta--docs&viewMode=docs&shortcuts=false&singleStory=true"
+  src="http://localhost:6060/?path=/docs/components-quote--default/iframe.html?id=shadowboxcta--docs&viewMode=docs&shortcuts=false&singleStory=true"
 ></iframe>
 
 ## Further reading
