@@ -1,6 +1,10 @@
 .dg-quote__body {
   --left-quote: "\201C";
   --right-quote: "\201D";
+  display: grid;
+  grid-template-columns: 1ch 3fr 1ch;
+  column-gap: units(1);
+  text-align: center;
 
   &::before,
   &::after {
@@ -14,5 +18,6 @@
 
   &::after {
     content: var(--right-quote);
+    align-self: end;
   }
 }
