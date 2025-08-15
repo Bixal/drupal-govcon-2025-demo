@@ -1,0 +1,82 @@
+// Quote - SOLVED
+
+@use "uswds-core" as *;
+
+@forward "usa-media-block";
+
+.dg-quote {
+  background-color: color("gray-20");
+  border-radius: units(1);
+  padding: units(2);
+
+  @include at-media("tablet") {
+    padding: units(3) units(6);
+  }
+}
+
+.dg-quote__body {
+  font-size: size("body", "md");
+  margin: units(0);
+
+  @include at-media("tablet") {
+    font-size: size("body", "xl");
+    padding-block-end: units(2);
+  }
+
+  column-gap: units(1);
+  text-align: center;
+  font-weight: font-weight("bold");
+
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+    font-size: size("body", "xl");
+  }
+
+  &::before {
+    content: "\201C";
+  }
+
+  &::after {
+    content: "\201D";
+    align-self: end;
+  }
+}
+
+.dg-quote__footer {
+  border-top: 1px solid color("base-light");
+  border-block-start: 1px solid color("base-light");
+  padding-block-start: units(1);
+
+  @include at-media("tablet") {
+    font-size: size("body", "md");
+    padding-block-start: units(2);
+  }
+}
+
+.dg-quote__author {
+  column-gap: units(2);
+  align-items: center;
+
+  .media-block__body {
+    flex-grow: 1;
+  }
+}
+
+.dg-quote__author-title {
+  // We only have the 'normal' and 'bold' enabled for theme weight tokens.
+  //
+  // For our extended system, we don't want to make the decision of adding additional tokens to downstream teams.
+  //
+  // If we did want to, the best thing to do would be to measure the compiled CSS before, enable a theme setting and measure after.
+  //
+  // For now, we'll use a value of "bold."
+  // https://designsystem.digital.gov/design-tokens/typesetting/font-weight/
+  font-weight: font-weight("bold");
+}
+
+// Lighter and gray, so we know we can use a theme base color without thinking too much. Tokens go from 0-100 and medium values are always aroud 50, so we'll something a little darker, like "60". Luckily we can just use "base-dark".
+.dg-quote__author-subtitle {
+  color: color("base-dark");
+}
