@@ -1,4 +1,4 @@
-import { Meta } from "@storybook/addon-docs/blocks";
+import { Meta, ColorPalette, ColorItem } from "@storybook/addon-docs/blocks";
 
 export const RightArrow = () => (
   <svg
@@ -20,6 +20,25 @@ export const RightArrow = () => (
 
 <Meta title="Welcome" />
 
-# TK
+# Welcome
 
-TK
+Welcome to your component library using StorybookJS and Drupal HTML Twig.
+
+# Colors
+
+<ColorPalette>
+  <ColorItem
+    title="Base"
+    subtitle="Grayscale colors"
+    colors={{
+      White: "#FFFFFF",
+      "Base lightest": "#f0f0f0",
+      "Base lighter": "#dfe1e2",
+      "Base light": "#a9aeb1",
+      Base: "#71767a",
+      "Base dark": "#565c65",
+      "Base darker": "#3d4551",
+      "Base darkest": "#1b1b1b",
+    }}
+  />
+</ColorPalette>
