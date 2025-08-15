@@ -10,10 +10,10 @@ export default defineConfig({
       customCss: ["./src/styles/main.css"],
       sidebar: [
         {
-          label: "Guides",
+          label: "Components",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", slug: "guides/example" },
+            { label: "Quote", slug: "components/quote" },
           ],
         },
         {

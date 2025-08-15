@@ -4,6 +4,6 @@
   .sl-markdown-content :is(iframe):not(:where(.not-content *)) {
     border: none;
     width: 100%;
-    height: 800px;
+    height: 260px !important;
   }
 }
