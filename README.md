@@ -4,8 +4,13 @@ This repository contains demo code and examples for the [Branching Out: Design S
 
 **What's included:**
 
-- **Storybook**: UI component development and documentation, includes TwigJS for easier templating and integration into Drupal projects.
-- **Starlight (AstroJS)**: Documentation site powered by AstroJS.
+![A StorybookJS component library](docs/images/component-library.webp)
+
+**Storybook**: UI component development and documentation, includes TwigJS for easier templating and integration into Drupal projects.
+
+![A component guidance page](docs/images/documentation-site.webp)
+
+**Starlight (AstroJS)**: Documentation site powered by AstroJS.
 
 ## Getting Started
 
