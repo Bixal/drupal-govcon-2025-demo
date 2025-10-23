@@ -16,15 +16,15 @@
   },
   "devDependencies": {
     "prettier": "3.6.2",
-    "@storybook/addon-docs": "9.1.6",
-    "@storybook/html-vite": "9.1.6",
-    "@storybook/web-components-vite": "9.1.6",
-    "storybook": "9.1.6",
+    "@storybook/addon-docs": "9.1.13",
+    "@storybook/html-vite": "9.1.13",
+    "@storybook/web-components-vite": "9.1.13",
+    "storybook": "9.1.13",
     "vite-plugin-twig-drupal": "1.6.2"
   },
   "dependencies": {
     "@uswds/uswds": "3.13.0",
     "lit": "3.3.1",
-    "sass": "1.92.1"
+    "sass": "1.93.2"
   }
 }
