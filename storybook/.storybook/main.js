@@ -1,3 +1,5 @@
+import { fileURLToPath } from "node:url";
+import { dirname } from "node:path";
 // /** @type { import('@storybook/web-components-vite').StorybookConfig } */
 /** @type { import('@storybook/html-vite').StorybookConfig } */
 const config = {
@@ -7,10 +9,10 @@ const config = {
   ],
   // Use static assets directly from USWDS.
   staticDirs: ["../../node_modules/@uswds", "../packages/public"],
-  addons: ["@storybook/addon-docs"],
+  addons: [getAbsolutePath("@storybook/addon-docs")],
   framework: {
     // name: "@storybook/web-components-vite",
-    name: "@storybook/html-vite",
+    name: getAbsolutePath("@storybook/html-vite"),
     options: {},
   },
   // ! Refer to the official USWDS documentation.
@@ -24,3 +26,7 @@ const config = {
   },
 };
 export default config;
+
+function getAbsolutePath(value) {
+  return dirname(fileURLToPath(import.meta.resolve(`${value}/package.json`)));
+}
