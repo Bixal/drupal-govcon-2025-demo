@@ -19,7 +19,7 @@
     "@storybook/addon-docs": "10.1.10",
     "@storybook/html-vite": "10.1.10",
     "@storybook/web-components-vite": "10.1.10",
-    "storybook": "10.1.10",
+    "storybook": "10.2.10",
     "vite-plugin-twig-drupal": "1.6.2"
   },
   "dependencies": {
