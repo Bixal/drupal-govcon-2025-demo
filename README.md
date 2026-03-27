@@ -54,6 +54,12 @@ You can also run the short version of the command:
 npm run build:vite -w storybook
 ```
 
+Update dependencies:
+
+```sh
+npx npm-check-updates --interactive --format group --workspaces
+```
+
 ## Usage
 
 ### Storybook
