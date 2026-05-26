@@ -60,6 +60,18 @@ Update dependencies:
 npx npm-check-updates --interactive --format group --workspaces
 ```
 
+There's a command in root package.json:
+
+```bash
+npm check-updates
+```
+
+To run an upgrade command for example, astrojs:
+
+```bash
+npx -w=starlight @astrojs/upgrade
+```
+
 ## Usage
 
 ### Storybook

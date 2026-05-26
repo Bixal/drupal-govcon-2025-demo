@@ -5,13 +5,14 @@
   "private": true,
   "main": "index.js",
   "scripts": {
+    "check-updates": "npx --yes npm-check-updates -i --format group --workspaces",
     "docs": "npm start --workspace ./starlight",
     "lib": "npm start --workspace ./storybook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "workspaces": [
-    "starlight/",
-    "storybook/"
+    "starlight",
+    "storybook"
   ],
   "repository": {
     "type": "git",
